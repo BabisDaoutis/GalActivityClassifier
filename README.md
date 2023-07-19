@@ -1,9 +1,9 @@
 # GalActivityClassifier
 Random Forest mid-IR-optical broad-band galaxy activity classifier
 
-Repository for galaxy actiivity clasifier from the paper "A versatile classification tool for galactic activity using optical and infrared colors"\
+Repository for galaxy activity clasifier from the paper "A versatile classification tool for galactic activity using optical and infrared colors"\
 Astronomy & Astrophysics, accepted\
-ArXiv:
+ArXiv:TBD
 
 **Authors:**\
 Charalampos Daoutis, Elias Kyritsis, Konstantinos Kouroumpatzakis, and Andreas Zezas
@@ -31,9 +31,9 @@ objects. This is a result of the inclusion of the optical color which also helps
 which mimic obscured AGN galaxies, a well-known problem for most IR diagnostics.
 
 ### Application of the model
-This repository contains all the needed jupyter notebooks and the pre-trained random forest model for the implementations of algorithm presented in this paper. We provide a test sample *NAME* to test that your code works correctly. When you want activity classifications for your own dataset of galaxies change this file. The supported formats for your dataset is eihter 'fits' or 'csv'. The programming language used is Python3. 
+This repository contains all the needed jupyter notebooks and the pre-trained random forest model for the implementation of algorithm presented in the paper mentioned above. We provide a file that has a test sample of galaxies *(sample_activity_classifier)* to test that your code works correctly. When you want the activity classifications for your own catalog of galaxies change this file with your catalog. The supported formats for your catalog is either 'fits' or 'csv'. The programming language used is Python3 and the sklearn verion is 1.1.2. 
 - **Outout of RF model**\
-After the succesful application of the model to a dataset of galaxies, a column named 'Classification' contains the label of the activity class of each galaxy in the provided catalog. For convinience we code the classification output using numbers for each activity class. Along with the classification labels we also provide the RF-predicted probabilities for every object to belong to each activity class. Below we provide a legend with the meaning of the classification output. \
+After the succesful application of the model on your catalog of galaxies, a column named 'Classification' contains the label of the activity class of each galaxy. Along with the classification labels we also provide the RF-predicted probabilities for each object to belong to each activity class. For convinience we code the classification output using numbers each one represanting a different activity class. Below we provide a legend with the meaning of the classification output. \
 **Classification legend** \
 0 - star forming \
 1 - AGN \
