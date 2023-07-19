@@ -1,4 +1,4 @@
-# galactivitycalssifier
+# GalActivityClassifier
 Random Forest mid-IR-optical broad-band galaxy activity classifier
 
 Repository for galaxy actiivity clasifier from the paper "A versatile classification tool for galactic activity using optical and infrared colors"\
