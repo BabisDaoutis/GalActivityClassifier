@@ -43,12 +43,12 @@ After the succesful application of the model on your catalog of galaxies, a colu
 
 Due to strong dependency on the specific versions of the Python packages, we recommend that the user creates a conda environment where all the necessary packages are installed based on the version of packages that this code has been tested to run successfully. Below we provide detailed instructions for the creation of the appropriate coda environment:
 ```
-conda create --name GalActivityClassifier python==3.11.4
+conda create --name GalActivityClassifier python==3.10.9
 conda activate GalActivityClassifier
 conda install scikit-learn==1.2.2
 conda install astropy
 conda install matplotlib==3.7.1
-conda install pandas==1.5.3
-conda install jupyter
+conda install pandas==1.4.4
+conda install jupyter notebook
 ```
 For the successful installation, these commands have to be executed in succession as they appear above.
