@@ -9,26 +9,28 @@ ArXiv:TBD
 Charalampos Daoutis, Elias Kyritsis, Konstantinos Kouroumpatzakis, and Andreas Zezas
 
 ### Abstract 
-**Context.** The overwhelming majority of diagnostic tools for galactic activity are focused mainly on the classes of active galaxies.
-Passive or dormant galaxies are often excluded from these diagnostics since they usually employ emission line features (e.g., forbidden
-emission lines). Thus, most of them focus on specific types of activity or only on one activity class (e.g., active galactic nuclei or AGN). \
+**Context.**  The overwhelming majority of diagnostic tools for galactic activity are focused mainly on the classes of active galaxies.
+Passive or dormant galaxies are often excluded from these diagnostics which usually employ emission line features (e.g., forbidden
+emission lines). Thus, most of them focus on specific types of activity or only on one activity class (e.g., active galactic nuclei or
+AGN). \
 **Aims.** In this work, we use infrared and optical colors in order to build an all-inclusive galactic activity diagnostic tool that can
-discriminate between star-forming, AGN, LINER, composite, and passive galaxies. \
-**Methods.** We use the random forest algorithm in order to define a new activity diagnostic tool. As ground truth for the training of the 
-algorithm, we consider galaxies that have been classified based on their optical spectra or optical colors. The potential discriminating
-features that are explored for this work are 4 colors: 2 infrared and 2 optical.We explore classification criteria based on infrared colors
-from the first 3 WISE bands (Bands 1, 2, and 3) supplemented with optical colors from the u, g, and r SDSS bands. From these we
-seek the combination with the minimum number of colors that provides optimal results. Furthermore, to mitigate biases related to
-aperture effects, we introduce a new WISE photometric scheme combing different sized apertures. \
+discriminate between star-forming, AGN, LINER, composite, and passive galaxies, and which can be used in local and low-redshift
+galaxies. \
+**Methods.** We use the random forest algorithm in order to define a new activity diagnostic tool. As ground truth for the training of the
+algorithm, we consider galaxies that have been classified based on their optical spectral lines. We explore classification criteria based
+on infrared colors from the first 3 WISE bands (bands 1, 2, and 3) supplemented with optical colors from the u, g, and r SDSS bands.
+From these we seek the combination with the minimum number of colors that provides optimal results. Furthermore, to mitigate
+biases related to aperture effects, we introduce a new WISE photometric scheme combing different sized apertures. \
 **Results.** We develop a diagnostic tool using machine learning methods that accommodate both active and passive galaxies under
 one unified classification scheme using just 3 colors. We find that the combination of W1-W2, W2-W3, and g-r colors offers good
 performance while the broad availability of these colors for a large number of galaxies ensures wide applicability on large galaxy
 samples. The overall accuracy is ∼81% while the achieved completeness for each class is ∼81% for star-forming, ∼56% for AGN,
 ∼68% for LINER, ∼65% for composite, and ∼85% for passive galaxies. \
-**Conclusions.** Besides the fact that our diagnostic tool can discriminate between active and passive galaxies, it also provides a significant
-improvement in the identification of AGN galaxies over the existing infrared selection methods, especially for low-luminosity
-objects. This is a result of the inclusion of the optical color which also helps to identify cases of starbursts with extreme mid-IR colors
-which mimic obscured AGN galaxies, a well-known problem for most IR diagnostics.
+**Conclusions.** Our diagnostic provides a significant improvement over existing IR diagnostics by including all types of active,
+as well as passive galaxies, and extending them to the local Universe. The inclusion of the optical colours improves their
+performance in identifying low-luminosity AGN which are generally confused with star-forming galaxies, and helps to identify
+cases of starbursts with extreme mid-IR colors which mimic obscured AGN galaxies, a well-known problem for most IR
+diagnostics.
 
 ### Application of the model
 This repository contains all the needed jupyter notebooks and the pre-trained random forest model for the implementation of algorithm presented in the paper mentioned above. We provide a file that has a test sample of galaxies *(sample_activity_classifier)* to test that your code works correctly. When you want the activity classifications for your own catalog of galaxies change this file with your catalog. The supported formats for your catalog is either 'fits' or 'csv'. The programming language used is Python3 and the sklearn verion is 1.1.2. 
