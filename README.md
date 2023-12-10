@@ -3,7 +3,9 @@ Random Forest mid-IR-optical broad-band galaxy activity classifier
 
 Repository for galaxy activity clasifier from the paper "A versatile classification tool for galactic activity using optical and infrared colors"\
 Astronomy & Astrophysics\
-ArXiv: https://arxiv.org/abs/2310.02888
+ArXiv: https://arxiv.org/abs/2310.02888 \
+ADS: https://ui.adsabs.harvard.edu/abs/2023A%26A...679A..76D/abstract \
+Publisher (A&A): https://www.aanda.org/articles/aa/full_html/2023/11/aa47016-23/aa47016-23.html \
 
 **Authors:**\
 Charalampos Daoutis, Elias Kyritsis, Konstantinos Kouroumpatzakis, and Andreas Zezas
