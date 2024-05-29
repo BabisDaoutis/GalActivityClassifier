@@ -36,7 +36,7 @@ diagnostics.
 
 ### Application of the model
 This repository contains all the needed jupyter notebooks and the pre-trained random forest model for the implementation of algorithm presented in the paper mentioned above. We provide a file that has a test sample of galaxies *(sample_activity_classifier)* to test that your code works correctly. When you want the activity classifications for your own catalog of galaxies change this file with your catalog. The supported formats for your catalog is either 'fits' or 'csv'. The programming language used is Python3 and the sklearn verion is 1.1.2. 
-- **Outout of RF model**\
+- **Output of RF model**\
 After the succesful application of the model on your catalog of galaxies, a column named 'Classification' contains the label of the activity class of each galaxy. Along with the classification labels we also provide the RF-predicted probabilities for each object to belong to each activity class. For convinience we code the classification output using numbers each one represanting a different activity class. Below we provide a legend with the meaning of the classification output. \
 **Classification legend** \
 0 - star forming \
