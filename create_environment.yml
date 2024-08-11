@@ -4,7 +4,7 @@ channels:
 dependencies:
   - python=3.10.9
   - scikit-learn=1.2.2
-  - astropy
+  - astropy==5.3.4
   - matplotlib=3.7.1
   - pandas=1.4.4
   - jupyter
