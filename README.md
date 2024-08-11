@@ -46,6 +46,20 @@ After the succesful application of the model on your catalog of galaxies, a colu
 4 - passive 
 
 Due to strong dependency on the specific versions of the Python packages, we recommend that the user creates a conda environment where all the necessary packages are installed based on the version of packages that this code has been tested to run successfully. Below we provide detailed instructions for the creation of the appropriate coda environment:
+
+**Option 1:**
+Run the *create_environment.yml* file:
+```
+git clone https://github.com/BabisDaoutis/GalActivityClassifier.git
+```
+Navigate to the folder where the *create_environment.yml* file is
+```
+conda env create -f create_environment.yml
+```
+
+**Option 2:**
+In case there are issues running the *create_environment.yml*, you can run the following commands in a terminal one by one:
+
 ```
 conda create --name GalActivityClassifier python==3.10.9
 conda activate GalActivityClassifier
