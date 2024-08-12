@@ -56,6 +56,7 @@ Navigate to the folder where the *create_environment.yml* file is
 ```
 conda env create -f create_environment.yml
 ```
+This will create a new conda environment with all the needed python packages.
 
 **Option 2:**
 In case there are issues running the *create_environment.yml*, you can run the following commands in a terminal one by one:
