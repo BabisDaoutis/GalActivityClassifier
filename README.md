@@ -65,7 +65,7 @@ In case there are issues running the *create_environment.yml*, you can run the f
 conda create --name GalActivityClassifier python==3.10.9
 conda activate GalActivityClassifier
 conda install scikit-learn==1.2.2
-conda install astropy
+conda install astropy==5.3.4
 conda install matplotlib==3.7.1
 conda install pandas==1.4.4
 conda install jupyter notebook
