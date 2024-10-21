@@ -51,7 +51,6 @@ Due to strong dependency on the specific versions of the Python packages, we rec
 Run the *create_environment.yml* file:
 ```
 cd <your-install-dir>
-cd GalActivityClassifier
 git clone https://github.com/BabisDaoutis/GalActivityClassifier.git
 cd GalActivityClassifier
 conda env create -f create_environment.yml
